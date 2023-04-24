@@ -1,18 +1,16 @@
 #include<stdio.h>
+#include<stdlib.h>
 /**
- * main - Main entry point.
- *
- * Return: Always 0 (Success)
- */
+*main - Main entry point.
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int n = 122;
+	char low;
 
-	while (n >= 97);
-	{
-		putchar(n);
-		n--;
-	}
+	for (low = 'z'; low >= 'a'; low--)
+	putchar(low);
 	putchar('\n');
 	return (0);
 }
