@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.c"
+#include "main.h"
 
 int _atoi(const char *str) {
   int sign = 1;
