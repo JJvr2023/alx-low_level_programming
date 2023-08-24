@@ -2,6 +2,9 @@
 #define DYNAMIC_LIB
 #include <stdlib.h>
 
+extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+                       size_t __n) __attribute__((__nonnull__));
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
