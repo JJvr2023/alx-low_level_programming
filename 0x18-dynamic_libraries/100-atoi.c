@@ -24,21 +24,3 @@ int _atoi(const char *str) {
 
   return num * sign;
 }
-
-int main() {
-  int n;
-
-  n = _atoi("12345");
-  printf("%d\n", n);
-
-  n = _atoi("-12345");
-  printf("%d\n", n);
-
-  n = _atoi("0");
-  printf("%d\n", n);
-
-  n = _atoi("   -12345");
-  printf("%d\n", n);
-
-  return 0;
-}
