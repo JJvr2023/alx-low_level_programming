@@ -14,7 +14,7 @@ int main() {
   char dest[10];
   char src[] = "This is a string.";
 
-  memcpy(dest, src, sizeof(src));
+  memcpy(dest, src, strlen(src));
 
   printf("%s\n", dest);
 
