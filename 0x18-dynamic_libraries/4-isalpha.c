@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 
-int isalpha(char c) {
+int isalpha(char(c)) {
   return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 }
 
