@@ -6,7 +6,7 @@ int _isupper(int c) {
 }
 
 int main() {
-  int c;
+  char c;
 
   printf("Enter a character: ");
   scanf("%c", &c);
