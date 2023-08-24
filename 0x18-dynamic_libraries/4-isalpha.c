@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include "main.h"
 
-int isalpha(int c) {
+int isalpha(char c) {
   return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 }
 
 int main() {
-  int c;
+  char c;
 
   printf("Enter a character: ");
   scanf("%c", &c);
